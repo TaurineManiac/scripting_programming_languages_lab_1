@@ -285,12 +285,36 @@ def lab1Task6():
 
 def main():
 
-    lab1Task1()
-    lab1Task2()
-    lab1Task3()
-    lab1Task4()
-    lab1Task5()
-    lab1Task6()
+    while True:
+        print("Выберите номер задание: 1-6 7-Выход:" )
+        choice = checkYourSolution(7)
+        if choice == 1:
+            print("Задание началось")
+            lab1Task1()
+            print("Задание кончилось")
+        elif choice == 2:
+            print("Задание началось")
+            lab1Task2()
+            print("Задание кончилось")
+        elif choice == 3:
+            print("Задание началось")
+            lab1Task3()
+            print("Задание кончилось")
+        elif choice == 4:
+            print("Задание началось")
+            lab1Task4()
+            print("Задание кончилось")
+        elif choice == 5:
+            print("Задание началось")
+            lab1Task5()
+            print("Задание кончилось")
+        elif choice == 6:
+            print("Задание началось")
+            lab1Task6()
+            print("Задание кончилось")
+        else :
+            break
+
 
 
 
